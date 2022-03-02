@@ -1,11 +1,12 @@
 <template>
-  <CContainer title="Home" body="This is home page!" icon="ri-home-smile-line"/>
+  <CContainer :title="$t('title.contact')" :body="$t('content')" icon="ri-contacts-line"/>
 </template>
 
 <script>
 import CContainer from "@/components/CContainer";
+
 export default {
-  name: "HomePage",
+  name: "ContactUs",
   components: {CContainer}
 }
 </script>

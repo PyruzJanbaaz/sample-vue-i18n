@@ -6,35 +6,43 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <router-link :to="{ name: 'Home' }" class="nav-link">
-                Home
+                {{ $t('nav.home') }}
               </router-link>
             </li>
             <li class="nav-item">
               <router-link :to="{ name: 'About' }" class="nav-link">
-                About Us
+                {{ $t('nav.about') }}
               </router-link>
             </li>
             <li class="nav-item">
               <router-link :to="{ name: 'Contact' }" class="nav-link">
-                Contact Us
+                {{ $t('nav.contact') }}
               </router-link>
             </li>
           </ul>
+          <CLocalSwitcher/>
         </div>
       </div>
     </nav>
     <router-view/>
-    <div class="container">
-      <p>{{ $t('message') }}</p>
-    </div>
   </div>
 </template>
 
 <script>
 
+import CLocalSwitcher from "@/components/CLocalSwitcher";
+
 export default {
   name: 'App',
-  components: {}
+  components: {CLocalSwitcher}
 }
 </script>
 
+
+<style>
+nav a.router-link-active {
+  background-color: #3fb27f;
+  border-radius: 0.2rem;
+  color: #fff!important;
+}
+</style>

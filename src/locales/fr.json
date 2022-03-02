@@ -1,7 +1,14 @@
 {
   "message": "Bonjour i18n !!",
   "nav": {
+    "home": "domicile",
     "about": "à propos de nous ",
     "contact": "Nous contacter"
-  }
+  },
+  "title": {
+    "home": "domicile",
+    "about": "à propos de nous ",
+    "contact": "Nous contacter"
+  },
+  "content": "Ceci est le contenu de la page!"
 }

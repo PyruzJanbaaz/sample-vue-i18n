@@ -1,7 +1,14 @@
 {
   "message": "Hello i18n !!",
   "nav": {
+    "home": "Home",
     "about": "About Us",
     "contact": "Contact Us"
-  }
+  },
+  "title": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact Us"
+  },
+  "content": "This is content of page!"
 }

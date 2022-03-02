@@ -1,5 +1,5 @@
 <template>
-  <CContainer title="About Us" body="This is bout us page!" icon="ri-building-3-line"/>
+  <CContainer :title="$t('title.about')" :body="$t('content')" icon="ri-building-3-line"/>
 </template>
 
 <script>
