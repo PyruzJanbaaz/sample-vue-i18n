@@ -1,5 +1,5 @@
 # sample-vue-i18n
-This is sample for descibing how to use i18n in Vue 3 :
+In this sample project, I’ll show you how to use Vue I18n to implement localization, internationalization, and translation in your Vue.js app.
 
 ## Dependencies
 ```
